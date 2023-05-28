@@ -1,83 +1,49 @@
 \chapter{PENDAHULUAN}
-\label{chap:pendahuluan}
-
-% Ubah bagian-bagian berikut dengan isi dari pendahuluan
-
-Penelitian ini dilatarbelakangi oleh \lipsum[1][1-5]
 
 \section{Latar Belakang}
-\label{sec:latarbelakang}
 
-Pesatnya perkembangan roket yang merupakan \lipsum[1]
+% Ubah paragraf-paragraf berikut sesuai dengan latar belakang dari tugas akhir
+%Saat ini era Industry telah memasuki generasi keempat pada revolusi industri atau lebih dikenal dengan revolusi industri 4.0 yang di mana pada babak ini mensinergikan aspek fisik dengan digital atau biasa disebut dengan digitalisasi. Pemanfaatan babak keempat ini dapat dilihat dari adanya pemanfaatan kecerdasan buatan (artificial intelligence), robotika, dan kemampuan komputer belajar dari data (machine learning). Machine learning merupakan bagian dari AI (artificial intelligence) yang menggunakan statistic, dimana dengan metode ini memungkinkan mesin (komputer) untuk mengambil keputusan berdasarkan data. Algoritma machine learning dirancang agar dapat belajar dan kemampuannya meningkat seiring waktu ketika terdapat data baru tanpa diprogram secara eksplisit \parencite{Bukusakti}. Dengan menggunakan machine learning maka dapat mendigitalisasikan citra yang diambil dari webcam dan nantinya akan diambil sebagai data untuk diolah oleh komputer. Salah satu implementasi yaitu menangkap gestur tubuh. Gestur kumpulan dari pose yang digunakan untuk komunikasi non verbal dengan sikap yang dibuat tubuh atau gerakan dari tangan, wajah, atau anggota lain dari tubuh yang terlihat mengkomunikasikan pesan-pesan tertentu \parencite{gesturtangan}. Menggunkan teknologi machine learning maka gestur dari tubuh akan dapat diterjemahkan ke dalam logika pemrograman dengan begitu maka gestur tubuh ini nantinya akan dapat di implementasikan dalam banyak hal seperti membantu membenarkan pose berolahraga, menerjemahkan bahasa isyarat, dan menjadi sistem kendali pada robot. Perkembangan bidang robotika saat ini berkembang secara pesat, awalnya robot hanya dapat dikendalikan secara dekat, namun beberapa tahun berikutnya robot sudah bisa dikendalikan dengan jarak yang jauh dengan tanpa kabel atau wireless dan dikendalikan dengan remote control. Teknologi kendali robot telah dikembangkan yang dapat langsung bergerak sesuai dengan inputan dari gestur manusia. Terdapat penilitian tentang sistem kendali untuk mobil robot, namun penelitian ini menggunakan sensor accelerometer MPU-6050 yang diletakkan pada sarung tangan dan akan dipakai saat ingin mengendalikan mobil robot Arduino. Penelitian ini didapatkan tingkat akurasi 100\% dan hasil respon sensor terhadap mobil mampu
 
-\lipsum[2]
+Pose adalah potongan-potongan dari gerakan yang bertujuan untuk komunikasi non verbal yang digunakan untuk menyampaikan pesan penting, baik secara langsung maupun tidak langsung tanpa menggunakan kata-kata. Setiap pose dapat memiliki arti tersendiri sesuai dengan kesepakatan umum ataupun personal yang melakukan komunikasi. Pose tangan berarti suatu sikap yang diberikan oleh tangan untuk berkomunikasi \parencite{gesturtangan}. \par
+Pose tangan ini biasa digunakan oleh penderita tuna rungu untuk berkomunikasi, namun dengan perkembangan teknologi dimana adanya teknologi \textit{human computer interaction} yang memungkinkan untuk berkomunikasi dengan komputer menggunakan pose tangan. \textit{Human Computer Interacttion} atau biasa disingkat HCI adalah suatu bidang studi yang merancanga teknologi komputer untuk lebih interaktif saat dipakai. Adanya HCI ini dapat memudahkan manusia untuk menyelesaikan tugas-tugasnya dengan bantuan komputer. HCI memungkinkan manusia untuk berinterkasi lebih dengan benda-benda disekitanya, salah satu contohnya adalah penggunaan gestur tangan pada saat menggunakan \textit{handphone}, mematikan atau menyalakan lampu dengan perintah suara, serta menggerakkan robot \parencite{HCI}. \par
+Pada saat ini perkembangan HCI cukup pesat yang diakibatkan dari perkembangan pada teknologi \textit{machine learning} dan robotika. Teknologi \textit{machine learning} memungkinkan komputer untuk belajar dari data-data yang diberikan oleh manusia dan juga mengambil keputusan dari data-data tersebut. Algoritma machine learning dirancang agar dapat belajar dan kemampuannya meningkat seiring waktu ketika terdapat data baru tanpa diprogram secara eksplisit. Pada salah satu cabang \textit{machine learning} yaitu \textit{computer vision} memungkinkan untuk komputer mengerti gerakan atau pose yang diberikan manusia melalui citra atau vidio \parencite{Bukusakti}. Tidak hanya \textit{machine learning} yang berkembang namun pada robotika juga berkembang terutama pada sistem kendalinya. Awalnya robot hanya dapat dikendalikan secara dekat, namun beberapa tahun berikutnya robot sudah bisa dikendalikan dengan jarak yang jauh dengan tanpa kabel atau \textit{wireles} dan dikendalikan dengan \textit{remote control joystick}. Saat ini robot dapat dikendalikan tidak hanya menggunakan \textit{joystick}, namun juga dapat dikendalikan dengan gestur tangan dan juga secara  \textit{autonomous}, namun saat ini kendali menggunakan \textit{joystick} secara perlahan mulai ditinggalkan karena kurang memberikan pengalaman yang interaktif saat digunakan. 
+Kendali robot menggunakan gestur tangan mulai dikembangkan menggunakan sensor yang diletakkan pada tangan dan juga dapat menggunakan \textit{computer vision} untuk mengetahui gestur tubuh manusia. Di antara algoritma \textit{computer vision} ada suatu metode yaitu CNN yang dapat memproses suatu data berupa citra dengan efisien serta terdapat \textit{framework Mediapipe} yang dapat mendeteksi tangan dalam citra. 
 
-\section{Permasalahan}
-\label{sec:permasalahan}
+% Sebelumnya telah terdapat penelitian dengan judul \textit{"In-Vehicle Hand Gesture Recognition using Hidden Markov Models"}, yang memiliki akurasi 77,5\%. Berdasarkan penelitian tersebut diharapkan penggunaan CNN dan \textit{framework Mediapipe} dapat menghasilkan akurasi yang lebih baik saat kondisi latar belakang \textit{homogen} maupun kompleks\parencite{invehicle}. 
+ 
 
-Dari permasalahan tersebut maka \lipsum[1][1-6]
+
+\section{Rumusan Masalah}
+% Ubah paragraf berikut sesuai dengan rumusan masalah dari tugas akhir
+Berdasarkan apa yang telah dipaparkan dalam latar belakang pada subbab 1.1, dapat diketahui bahwa sistem kendali pada robot sudah mulai meninggalkan \textit{remote control joystick} dan beralih pada kendali menggunakan gestur tangan atau secara \textit{autonomous}. Penggunaan \textit{remote control joystick} mulai ditinggalkan karena adanya perkembangan teknologi yang lebih interaktif. Oleh karenanya,diperlukan opsi lain dalam mengendalikan robot yaitu salah satunya menggunakan pose tangan.
+
+% Seperti pada penelitian yang telah disebutkan dalam latar belakang subbab 1.1 yang membuat sistem kendali robot dengan bantuan sensor yang diletakkan pada sarung tangan pengguna. Cara ini akan meletakkan beberapa
+% Hal ini dikarenakan kendali menggunakan gestur tangan dirasa memberikan pengalaman interaktif yang lebih dari pada menggunakan \textit{joystick}. 
+
+% Berdasarkan latar belakang pada subbab 1.1, terdapat suatu permaslaahan yaitu dengan majunya teknologi suatu \textit{remote control} pada robot mulai dikembangkan dengan mengutamakan interaksi pengguna dengan robot. Salah satunya penggunaan \textit{remote control} dengan menggunakan bantuan sensor-sensor yang diletakkan pada tangan sehingga dapat menangkap gerakan pada tangan untuk memberikan perintah navigasi pada robot. Cara ini masih memerlukan alat yang dipasangkan pada tangan pengguna, namun bagaimana jika peralatan ini digantikan dengan kamera yang juga dapat menangkap gerakan tangan. Pada Tugas Akhir ini diajukan rancangan \textit{remote control }dengan menggunakan bantuan kamera untuk menangkap gestur tangan dan mengklasifikasikan gestur tangan tersebut menjadi sebuah perintah navigasi pada \textit{mobile robot}.
+
+\section{Batasan Masalah atau Ruang Lingkup}
+
+Pada pembuatan Tugas Akhir ini, pembahasan penelitian akan dibatasi beberapa hal berikut :
+\begin{enumerate}
+	\item Pengambilan citra akan dilakukan dengan menggunakan kamera.
+	\item Pendeteksian tangan akan menggunakan \textit{framework Mediapipe}.
+	\item Pembatasan pose tangan yang menjadi dataset ada enam yakni maju, mundur, berhenti, belok kiri, belok kanan, dan tembak.
+	\item Pengujian yang dilakukan adalah pengujian akurasi model pada pose tangan dengan variasi jarak.
+\end{enumerate}
 
 \section{Tujuan}
-\label{sec:Tujuan}
 
-Tujuan dari \lipsum[1][1-3] adalah:
+% Ubah paragraf berikut sesuai dengan tujuan penelitian dari tugas akhir
+Tujuan yang ingin dicapai dari Tugas Akhir ini adalah membuat kendali robot berbasis pose tangan menggunakan \textit{Convolutional Neural Network} yang memberikan pengalaman lebih interaktif saat digunakan dengan akurasi yang tinggi.
 
-\begin{enumerate}[nolistsep]
+% Berdasarkan rumusan permasalahan yang ada pada subbab 1.2, maka dibuatlah tujuan Kendali \textit{mobile robot} berbasis gestur tangan menggunakan \textit{Convolutional Neural Network} dengan harapan dapat memberikan opsi lain dalam mengontrol robot dan pengalaman yang lebih interaktif.
+% \begin{enumerate}
+% 	\item Mendeteksi tangan menggunakan Mediapipe.
+% 	\item Mengetahui pose tangan menggunakan Convolutional Neural Network.
+% 	\item Membuat sistem kendali untuk mobil robot arduino menggunakan pose tangan.
+% \end{enumerate}
 
-  \item Membuat \lipsum[2][1-3]
-
-  \item \lipsum[3][1-3]
-
-\end{enumerate}
-
-\section{Batasan Masalah}
-\label{sec:batasanmasalah}
-
-Batasan-batasan dari \lipsum[1][1-3] adalah:
-
-\begin{enumerate}[nolistsep]
-
-  \item Mempermudah \lipsum[2][1-3]
-
-  \item \lipsum[3][1-5]
-
-  \item \lipsum[4][1-5]
-
-\end{enumerate}
-
-\section{Sistematika Penulisan}
-\label{sec:sistematikapenulisan}
-
-Laporan penelitian tugas akhir ini terbagi menjadi \lipsum[1][1-3] yaitu:
-
-\begin{enumerate}[nolistsep]
-
-  \item \textbf{BAB I Pendahuluan}
-
-        Bab ini berisi \lipsum[2][1-5]
-
-        \vspace{2ex}
-
-  \item \textbf{BAB II Tinjauan Pustaka}
-
-        Bab ini berisi \lipsum[3][1-5]
-
-        \vspace{2ex}
-
-  \item \textbf{BAB III Desain dan Implementasi Sistem}
-
-        Bab ini berisi \lipsum[4][1-5]
-
-        \vspace{2ex}
-
-  \item \textbf{BAB IV Pengujian dan Analisa}
-
-        Bab ini berisi \lipsum[5][1-5]
-
-        \vspace{2ex}
-
-  \item \textbf{BAB V Penutup}
-
-        Bab ini berisi \lipsum[6][1-5]
-
-\end{enumerate}
+\section{Manfaat}
+Manfaat dari penelitian ini yaitu membuat kendali untuk \textit{mobile robot} berbasis pose tangan yang akurat dan dapat digunakan oleh masyarakat secara umum. Dari penelitian ini diharapkan dapat sebagai opsi lain dalam mengontrol robot yang lebih mudah dan tanpa alat lain.

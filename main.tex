@@ -34,6 +34,8 @@
 \usepackage{longtable}
 \usepackage{tabularx}
 \usepackage{wrapfig}
+\usepackage{float}
+\usepackage{multirow}
 
 % Definisi untuk "Hati ini sengaja dikosongkan"
 \patchcmd{\cleardoublepage}{\hbox{}}{
@@ -143,6 +145,10 @@
 \renewcommand\covercontents{sampul/konten-en.tex}
 \input{sampul/sampul-luar-tipis.tex}
 \cleardoublepage
+
+% Label tabel dan gambar dalam bahasa indonesia
+\renewcommand{\figurename}{Gambar}
+\renewcommand{\tablename}{Tabel}
 
 % Pengaturan ukuran indentasi paragraf
 \setlength{\parindent}{2em}
