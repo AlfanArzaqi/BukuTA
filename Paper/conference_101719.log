@@ -1,0 +1,454 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.29)  8 JUN 2023 15:45
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"d:/DATA/SEMESTER 8/TUGASAKHIR/BukuTA/Paper/conference_101719.tex"
+(d:/DATA/SEMESTER 8/TUGASAKHIR/BukuTA/Paper/conference_101719.tex
+LaTeX2e <2022-11-01>
+L3 programming layer <2022-11-02> (IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen140
+\@IEEEtrantmpdimenB=\dimen141
+\@IEEEtrantmpdimenC=\dimen142
+\@IEEEtrantmpcountA=\count185
+\@IEEEtrantmpcountB=\count186
+\@IEEEtrantmpcountC=\count187
+\@IEEEtrantmptoksA=\toks16
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
+(C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen143
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen144
+\CLASSINFOnormalsizeunitybaselineskip=\dimen145
+\IEEEnormaljot=\dimen146
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+\IEEEquantizedlength=\dimen147
+\IEEEquantizedlengthdiff=\dimen148
+\IEEEquantizedtextheightdiff=\dimen149
+\IEEEilabelindentA=\dimen150
+\IEEEilabelindentB=\dimen151
+\IEEEilabelindent=\dimen152
+\IEEEelabelindent=\dimen153
+\IEEEdlabelindent=\dimen154
+\IEEElabelindent=\dimen155
+\IEEEiednormlabelsep=\dimen156
+\IEEEiedmathlabelsep=\dimen157
+\IEEEiedtopsep=\skip47
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@IEEEsubequation=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count193
+\c@table=\count194
+\@IEEEeqnnumcols=\count195
+\@IEEEeqncolcnt=\count196
+\@IEEEsubeqnnumrollback=\count197
+\@IEEEquantizeheightA=\dimen158
+\@IEEEquantizeheightB=\dimen159
+\@IEEEquantizeheightC=\dimen160
+\@IEEEquantizeprevdepth=\dimen161
+\@IEEEquantizemultiple=\count198
+\@IEEEquantizeboxA=\box51
+\@IEEEtmpitemindent=\dimen162
+\IEEEPARstartletwidth=\dimen163
+\c@IEEEbiography=\count199
+\@IEEEtranrubishbin=\box52
+)
+** ATTENTION: Overriding command lockouts (line 2).
+(C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen164
+)) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen165
+) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count266
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count267
+\leftroot@=\count268
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count269
+\DOTSCASE@=\count270
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen166
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count271
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count272
+\dotsspace@=\muskip16
+\c@parentequation=\count273
+\dspbrk@lvl=\count274
+\tag@help=\toks18
+\row@=\count275
+\column@=\count276
+\maxfields@=\count277
+\andhelp@=\toks19
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks20
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+ (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+\c@ALC@unique=\count278
+\c@ALC@line=\count279
+\c@ALC@rem=\count280
+\c@ALC@depth=\count281
+\ALC@tlm=\skip53
+\algorithmicindent=\skip54
+) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
+) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count282
+\float@exts=\toks23
+\float@box=\box55
+\@float@everytoks=\toks24
+\@floatcapt=\box56
+) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip55
+\multirow@cntb=\count283
+\multirow@dima=\skip56
+\bigstrutjot=\dimen175
+) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count284
+\l__pdf_internal_box=\box57
+) (conference_101719.aux)
+\openout1 = `conference_101719.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
+-- Lines per column: 56 (exact).
+(C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen176
+\scratchbox=\box58
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen177
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks26
+) (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+ (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+ (C:\Users\Alfan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1{C:/Users/Alfan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+
+]
+<../Gambar/metodologi.png, id=9, 575.14874pt x 63.23625pt>
+File: ../Gambar/metodologi.png Graphic file (type png)
+<use ../Gambar/metodologi.png>
+Package pdftex.def Info: ../Gambar/metodologi.png  used on input line 66.
+(pdftex.def)             Requested size: 252.0pt x 27.7063pt.
+ [2 <../Gambar/metodologi.png>]
+<../Gambar/posediam.png, id=15, 642.4pt x 481.8pt>
+File: ../Gambar/posediam.png Graphic file (type png)
+<use ../Gambar/posediam.png>
+Package pdftex.def Info: ../Gambar/posediam.png  used on input line 97.
+(pdftex.def)             Requested size: 75.60077pt x 56.69604pt.
+<../Gambar/posekanan.png, id=16, 642.4pt x 481.8pt>
+File: ../Gambar/posekanan.png Graphic file (type png)
+<use ../Gambar/posekanan.png>
+Package pdftex.def Info: ../Gambar/posekanan.png  used on input line 98.
+(pdftex.def)             Requested size: 75.60077pt x 56.69604pt.
+<../Gambar/posekiri.png, id=17, 642.4pt x 481.8pt>
+File: ../Gambar/posekiri.png Graphic file (type png)
+<use ../Gambar/posekiri.png>
+Package pdftex.def Info: ../Gambar/posekiri.png  used on input line 99.
+(pdftex.def)             Requested size: 75.60077pt x 56.69604pt.
+<../Gambar/posemaju.png, id=18, 642.4pt x 481.8pt>
+File: ../Gambar/posemaju.png Graphic file (type png)
+<use ../Gambar/posemaju.png>
+Package pdftex.def Info: ../Gambar/posemaju.png  used on input line 100.
+(pdftex.def)             Requested size: 75.60077pt x 56.69604pt.
+<../Gambar/posemundur.png, id=19, 642.4pt x 481.8pt>
+File: ../Gambar/posemundur.png Graphic file (type png)
+<use ../Gambar/posemundur.png>
+Package pdftex.def Info: ../Gambar/posemundur.png  used on input line 101.
+(pdftex.def)             Requested size: 75.60077pt x 56.69604pt.
+<../Gambar/posetembak.png, id=20, 642.4pt x 481.8pt>
+File: ../Gambar/posetembak.png Graphic file (type png)
+<use ../Gambar/posetembak.png>
+Package pdftex.def Info: ../Gambar/posetembak.png  used on input line 102.
+(pdftex.def)             Requested size: 75.60077pt x 56.69604pt.
+<../Gambar/Diam (1).png, id=21, 256.96pt x 128.48pt>
+File: ../Gambar/Diam (1).png Graphic file (type png)
+<use ../Gambar/Diam (1).png>
+Package pdftex.def Info: ../Gambar/Diam (1).png  used on input line 116.
+(pdftex.def)             Requested size: 75.60077pt x 37.80128pt.
+<../Gambar/DiamI (1).png, id=22, 256.96pt x 128.48pt>
+File: ../Gambar/DiamI (1).png Graphic file (type png)
+<use ../Gambar/DiamI (1).png>
+Package pdftex.def Info: ../Gambar/DiamI (1).png  used on input line 116.
+(pdftex.def)             Requested size: 75.60077pt x 37.80128pt.
+<../Gambar/Kanan (1).png, id=23, 256.96pt x 128.48pt>
+File: ../Gambar/Kanan (1).png Graphic file (type png)
+<use ../Gambar/Kanan (1).png>
+Package pdftex.def Info: ../Gambar/Kanan (1).png  used on input line 117.
+(pdftex.def)             Requested size: 75.60077pt x 37.80128pt.
+<../Gambar/KananI (1).png, id=24, 256.96pt x 128.48pt>
+File: ../Gambar/KananI (1).png Graphic file (type png)
+<use ../Gambar/KananI (1).png>
+Package pdftex.def Info: ../Gambar/KananI (1).png  used on input line 117.
+(pdftex.def)             Requested size: 75.60077pt x 37.80128pt.
+<../Gambar/Kiri (1).png, id=25, 256.96pt x 128.48pt>
+File: ../Gambar/Kiri (1).png Graphic file (type png)
+<use ../Gambar/Kiri (1).png>
+Package pdftex.def Info: ../Gambar/Kiri (1).png  used on input line 118.
+(pdftex.def)             Requested size: 75.60077pt x 37.80128pt.
+<../Gambar/KiriI (1).png, id=26, 256.96pt x 128.48pt>
+File: ../Gambar/KiriI (1).png Graphic file (type png)
+<use ../Gambar/KiriI (1).png>
+Package pdftex.def Info: ../Gambar/KiriI (1).png  used on input line 118.
+(pdftex.def)             Requested size: 75.60077pt x 37.80128pt.
+<../Gambar/Maju (1).png, id=27, 256.96pt x 128.48pt>
+File: ../Gambar/Maju (1).png Graphic file (type png)
+<use ../Gambar/Maju (1).png>
+Package pdftex.def Info: ../Gambar/Maju (1).png  used on input line 119.
+(pdftex.def)             Requested size: 75.60077pt x 37.80128pt.
+<../Gambar/MajuI (1).png, id=28, 256.96pt x 128.48pt>
+File: ../Gambar/MajuI (1).png Graphic file (type png)
+<use ../Gambar/MajuI (1).png>
+Package pdftex.def Info: ../Gambar/MajuI (1).png  used on input line 119.
+(pdftex.def)             Requested size: 75.60077pt x 37.80128pt.
+<../Gambar/Mundur (1).png, id=29, 256.96pt x 128.48pt>
+File: ../Gambar/Mundur (1).png Graphic file (type png)
+<use ../Gambar/Mundur (1).png>
+Package pdftex.def Info: ../Gambar/Mundur (1).png  used on input line 120.
+(pdftex.def)             Requested size: 75.60077pt x 37.80128pt.
+<../Gambar/MundurI (1).png, id=30, 256.96pt x 128.48pt>
+File: ../Gambar/MundurI (1).png Graphic file (type png)
+<use ../Gambar/MundurI (1).png>
+Package pdftex.def Info: ../Gambar/MundurI (1).png  used on input line 120.
+(pdftex.def)             Requested size: 75.60077pt x 37.80128pt.
+<../Gambar/Tembak (1).png, id=31, 256.96pt x 128.48pt>
+File: ../Gambar/Tembak (1).png Graphic file (type png)
+<use ../Gambar/Tembak (1).png>
+Package pdftex.def Info: ../Gambar/Tembak (1).png  used on input line 121.
+(pdftex.def)             Requested size: 75.60077pt x 37.80128pt.
+<../Gambar/TembakI (1).png, id=32, 256.96pt x 128.48pt>
+File: ../Gambar/TembakI (1).png Graphic file (type png)
+<use ../Gambar/TembakI (1).png>
+Package pdftex.def Info: ../Gambar/TembakI (1).png  used on input line 121.
+(pdftex.def)             Requested size: 75.60077pt x 37.80128pt.
+ [3 <../Gambar/posediam.png (PNG copy)> <../Gambar/posekanan.png (PNG copy)> <../Gambar/posekiri.png (PNG copy)> <../Gambar/posemaju.png (PNG copy)> <../Gambar/posemundur.png (PNG copy)> <../Gambar/posetembak.png (PNG copy)> <../Gambar/Diam (1).png (PNG copy)> <../Gambar/DiamI (1).png (PNG copy)> <../Gambar/Kanan (1).png (PNG copy)> <../Gambar/KananI (1).png (PNG copy)> <../Gambar/Kiri (1).png (PNG copy)> <../Gambar/KiriI (1).png (PNG copy)> <../Gambar/Maju (1).png (PNG copy)> <../Gambar/MajuI (1).png (PNG copy)> <../Gambar/Mundur (1).png (PNG copy)> <../Gambar/MundurI (1).png (PNG copy)> <../Gambar/Tembak (1).png (PNG copy)> <../Gambar/TembakI (1).png (PNG copy)>]
+<../Gambar/loss.png, id=36, 387.24675pt x 284.86424pt>
+File: ../Gambar/loss.png Graphic file (type png)
+<use ../Gambar/loss.png>
+Package pdftex.def Info: ../Gambar/loss.png  used on input line 132.
+(pdftex.def)             Requested size: 163.79846pt x 120.49411pt.
+<../Gambar/akurasi.png, id=37, 385.44pt x 284.86424pt>
+File: ../Gambar/akurasi.png Graphic file (type png)
+<use ../Gambar/akurasi.png>
+Package pdftex.def Info: ../Gambar/akurasi.png  used on input line 134.
+(pdftex.def)             Requested size: 163.79846pt x 121.05482pt.
+<../Gambar/confusionmatrix.png, id=38, 421.575pt x 293.898pt>
+File: ../Gambar/confusionmatrix.png Graphic file (type png)
+<use ../Gambar/confusionmatrix.png>
+Package pdftex.def Info: ../Gambar/confusionmatrix.png  used on input line 143.
+(pdftex.def)             Requested size: 176.39923pt x 122.9744pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Font Warning: Font shape `OT1/ptm/m/scit' undefined
+(Font)              using `OT1/ptm/m/it' instead on input line 150.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <../Gambar/loss.png> <../Gambar/akurasi.png> <../Gambar/confusionmatrix.png>]
+Underfull \hbox (badness 1824) in paragraph at lines 210--211
+\OT1/ptm/m/n/8 PEN-GEN-DALIAN MO-BILE ROBOT VI-SION MENG-GU-NAKAN
+ []
+
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[5
+
+] (conference_101719.aux) ) 
+Here is how much of TeX's memory you used:
+ 4545 strings out of 475284
+ 74183 string characters out of 2774104
+ 429360 words of memory out of 3000000
+ 25958 multiletter control sequences out of 15000+600000
+ 511841 words of font info for 114 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,12n,62p,1863b,338s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/Alfan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Alfan/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Alfan/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Alfan/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Alfan/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on conference_101719.pdf (5 pages, 3026658 bytes).
+PDF statistics:
+ 66 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+

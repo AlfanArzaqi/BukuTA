@@ -15,21 +15,21 @@ Mobile Robot merupaka salah satu jenis robot yang dapat berpindah posisi dari sa
 \subsection{Estimasi Pose Tangan}
 \begin{figure}[!h]
   \centering
-	\includegraphics[width=0.7\linewidth]{gambar/hand_landmarks.png}
+	\includegraphics[width=0.7\linewidth]{../Gambar/hand_landmarks.png}
 	\caption{Dua puluh satu titik \textit{keypoint} pada tangan \parencite{mediapipe}}
 	\label{fig:tangan}
 \end{figure}
-Pengenalan gestur atau pose tangan merupakan topik yang menarik dalam ilmu komputer dan teknologi yang betujuan untuk komunikasi antara manusia dengan komputer menggunakan gestur tanpa menyentuhnya secara langsung. Saat ini banyak \textit{framework} atau \textit{library} pembelajaran mesin untuk mengenali gerakan tangan, salah satu yaitu \textit{Mediapipe}. \textit{Mediapipe} merupakan suatu framework yang dirancang oleh Google untuk menghasilkan audio atau video dari membangun \textit{pipelines} untuk mengolah data persepsi. Dengan bantuan dari \textit{Mediapipe} tangan yang terdapat pada citra akan dapat dideteksi dengan mendeteksi dua puluh satu titik pada tangan yang ditunjukkan oleh gambar \ref*{fig:tangan}. Proses pertama yaitu akan mendeteksi telapak tangan atau disebut \textit{palm detection} agar program dapat mendeteksi keberadaan tangan. Selanjutnya yaitu mendeteksi dua puluh titik \textit{keypoint} dalam tangan yang sudah terdeteksi \parencite{UniversitasDinamika}. 
+Pengenalan gestur atau pose tangan merupakan topik yang menarik dalam ilmu komputer dan teknologi yang betujuan untuk komunikasi antara manusia dengan komputer menggunakan gestur tanpa menyentuhnya secara langsung. Saat ini banyak \textit{framework} atau \textit{library} pembelajaran mesin untuk mengenali gerakan tangan, salah satu yaitu \textit{Mediapipe}. \textit{Mediapipe} merupakan suatu framework yang dirancang oleh Google untuk menghasilkan audio atau video dari membangun \textit{pipelines} untuk mengolah data persepsi. Dengan bantuan dari \textit{Mediapipe} tangan yang terdapat pada citra akan dapat dideteksi dengan mendeteksi dua puluh satu titik pada tangan yang ditunjukkan oleh Gambar \ref*{fig:tangan}. Proses pertama yaitu akan mendeteksi telapak tangan atau disebut \textit{palm detection} agar program dapat mendeteksi keberadaan tangan. Selanjutnya yaitu mendeteksi dua puluh titik \textit{keypoint} dalam tangan yang sudah terdeteksi \parencite{UniversitasDinamika}. 
 
 
 \subsection{\textit{Convolutional Neural Network} (CNN)}
 \begin{figure}[!h]
   \centering
-  \includegraphics[width=1\linewidth]{gambar/cnn.png}
+  \includegraphics[width=1\linewidth]{../Gambar/cnn.png}
   \caption{Arsitektur CNN \parencite{adit}}
   \label{fig:cnn}
 \end{figure}
-CNN merupakan salah satu dari \textit{neural network} yang digunakan untuk memproses data berupa grid. Salah satu contoh dari data grid adalah citra. Citra dianggap sebagai grid karena berbentuk piksel dua dimensi. CNN dianggap sebagai salah satu solusi untuk permasalahan pada bidang \textit{Computer Vision} untuk mendeteksi dan mengenali sebuah image \parencite{CNN}. Secara nama CNN menunjukkan bahwa operasi matematika yang akan digunakan yaitu konvolusi dengan cara mengkalikan data dua dimensi dengan kernel. Pada CNN akan memiliki 3 lapisan utama seperti pada gambar \ref*{fig:cnn} yaitu :
+CNN merupakan salah satu dari \textit{neural network} yang digunakan untuk memproses data berupa grid. Salah satu contoh dari data grid adalah citra. Citra dianggap sebagai grid karena berbentuk piksel dua dimensi. CNN dianggap sebagai salah satu solusi untuk permasalahan pada bidang \textit{Computer Vision} untuk mendeteksi dan mengenali sebuah image \parencite{CNN}. Secara nama CNN menunjukkan bahwa operasi matematika yang akan digunakan yaitu konvolusi dengan cara mengkalikan data dua dimensi dengan kernel. Pada CNN akan memiliki 3 lapisan utama seperti pada Gambar \ref*{fig:cnn} yaitu :
 \begin{enumerate}
   \item \textit{Convolutional Layer} \par
   Layer ini merupakan inti dari CNN karena pada layer ini akan dilakukannya operasi konvolusi. Operasi konvolusi pada layer ini akan dilakukan antara input data dengan \textit{filter} atau \textit{kernel}. \textit{Filter} akan melintasi input data dan akan melakukan operasi "dot" antara input data dengan nilai dari \textit{filter} sehingga akan menghasilkan \textit{feature map} \parencite{LinaQ}.
