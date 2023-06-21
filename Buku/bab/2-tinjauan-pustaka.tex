@@ -15,11 +15,11 @@ Mobile Robot merupaka salah satu jenis robot yang dapat berpindah posisi dari sa
 \subsection{Estimasi Pose Tangan}
 \begin{figure}[!h]
   \centering
-	\includegraphics[width=0.7\linewidth]{../Gambar/hand_landmarks.png}
-	\caption{Dua puluh satu titik \textit{keypoint} pada tangan \parencite{mediapipe}}
+	\includegraphics[width=0.5\linewidth]{../Gambar/Handlandmark.png}
+	\caption{Dua puluh satu titik \textit{hand landmark} pada tangan}
 	\label{fig:tangan}
 \end{figure}
-Pengenalan gestur atau pose tangan merupakan topik yang menarik dalam ilmu komputer dan teknologi yang betujuan untuk komunikasi antara manusia dengan komputer menggunakan gestur tanpa menyentuhnya secara langsung. Saat ini banyak \textit{framework} atau \textit{library} pembelajaran mesin untuk mengenali gerakan tangan, salah satu yaitu \textit{Mediapipe}. \textit{Mediapipe} merupakan suatu framework yang dirancang oleh Google untuk menghasilkan audio atau video dari membangun \textit{pipelines} untuk mengolah data persepsi. Dengan bantuan dari \textit{Mediapipe} tangan yang terdapat pada citra akan dapat dideteksi dengan mendeteksi dua puluh satu titik pada tangan yang ditunjukkan oleh Gambar \ref*{fig:tangan}. Proses pertama yaitu akan mendeteksi telapak tangan atau disebut \textit{palm detection} agar program dapat mendeteksi keberadaan tangan. Selanjutnya yaitu mendeteksi dua puluh titik \textit{keypoint} dalam tangan yang sudah terdeteksi \parencite{UniversitasDinamika}. 
+Pengenalan gestur atau pose tangan merupakan topik yang menarik dalam ilmu komputer dan teknologi yang betujuan untuk komunikasi antara manusia dengan komputer menggunakan gestur tanpa menyentuhnya secara langsung \parencite{UniversitasDinamika}. Saat ini banyak \textit{framework} atau \textit{library} pembelajaran mesin untuk mengenali gerakan tangan, salah satu yaitu \textit{Mediapipe}. \textit{Mediapipe} merupakan suatu framework yang dirancang oleh Google untuk menghasilkan audio atau video dari membangun \textit{pipelines} untuk mengolah data persepsi. Dengan bantuan dari \textit{Mediapipe} tangan yang terdapat pada citra akan dapat dideteksi dengan mendeteksi dua puluh satu titik pada tangan yang ditunjukkan oleh Gambar \ref*{fig:tangan}. Proses pertama yaitu akan mendeteksi telapak tangan atau disebut \textit{palm detection} agar program dapat mendeteksi keberadaan tangan. Selanjutnya yaitu mendeteksi dua puluh titik \textit{keypoint} dalam tangan yang sudah terdeteksi \parencite{mediapipejurnal}. 
 
 
 \subsection{\textit{Convolutional Neural Network} (CNN)}
