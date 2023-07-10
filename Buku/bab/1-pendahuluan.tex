@@ -1,22 +1,29 @@
 \chapter{PENDAHULUAN}
 
 \section{Latar Belakang}
+\label{subbab1.1}
 
-% Ubah paragraf-paragraf berikut sesuai dengan latar belakang dari tugas akhir
+% Ubah paragraf-paragraf berikut sesuai dengan latar belakang dari Tugas Akhir
 %Saat ini era Industry telah memasuki generasi keempat pada revolusi industri atau lebih dikenal dengan revolusi industri 4.0 yang di mana pada babak ini mensinergikan aspek fisik dengan digital atau biasa disebut dengan digitalisasi. Pemanfaatan babak keempat ini dapat dilihat dari adanya pemanfaatan kecerdasan buatan (artificial intelligence), robotika, dan kemampuan komputer belajar dari data (machine learning). Machine learning merupakan bagian dari AI (artificial intelligence) yang menggunakan statistic, dimana dengan metode ini memungkinkan mesin (komputer) untuk mengambil keputusan berdasarkan data. Algoritma machine learning dirancang agar dapat belajar dan kemampuannya meningkat seiring waktu ketika terdapat data baru tanpa diprogram secara eksplisit \parencite{Bukusakti}. Dengan menggunakan machine learning maka dapat mendigitalisasikan citra yang diambil dari webcam dan nantinya akan diambil sebagai data untuk diolah oleh komputer. Salah satu implementasi yaitu menangkap gestur tubuh. Gestur kumpulan dari pose yang digunakan untuk komunikasi non verbal dengan sikap yang dibuat tubuh atau gerakan dari tangan, wajah, atau anggota lain dari tubuh yang terlihat mengkomunikasikan pesan-pesan tertentu \parencite{gesturtangan}. Menggunkan teknologi machine learning maka gestur dari tubuh akan dapat diterjemahkan ke dalam logika pemrograman dengan begitu maka gestur tubuh ini nantinya akan dapat di implementasikan dalam banyak hal seperti membantu membenarkan pose berolahraga, menerjemahkan bahasa isyarat, dan menjadi sistem kendali pada robot. Perkembangan bidang robotika saat ini berkembang secara pesat, awalnya robot hanya dapat dikendalikan secara dekat, namun beberapa tahun berikutnya robot sudah bisa dikendalikan dengan jarak yang jauh dengan tanpa kabel atau wireless dan dikendalikan dengan remote control. Teknologi kendali robot telah dikembangkan yang dapat langsung bergerak sesuai dengan inputan dari gestur manusia. Terdapat penilitian tentang sistem kendali untuk mobil robot, namun penelitian ini menggunakan sensor accelerometer MPU-6050 yang diletakkan pada sarung tangan dan akan dipakai saat ingin mengendalikan mobil robot Arduino. Penelitian ini didapatkan tingkat akurasi 100\% dan hasil respon sensor terhadap mobil mampu
 
-Pose adalah potongan-potongan dari gerakan yang bertujuan untuk komunikasi non verbal yang digunakan untuk menyampaikan pesan penting, baik secara langsung maupun tidak langsung tanpa menggunakan kata-kata. Setiap pose dapat memiliki arti tersendiri sesuai dengan kesepakatan umum ataupun personal yang melakukan komunikasi. Pose tangan berarti suatu sikap yang diberikan oleh tangan untuk berkomunikasi \parencite{gesturtangan}. \par
-Pose tangan ini biasa digunakan oleh penderita tuna rungu untuk berkomunikasi, namun dengan perkembangan teknologi dimana adanya teknologi \textit{human computer interaction} yang memungkinkan untuk berkomunikasi dengan komputer menggunakan pose tangan. \textit{Human Computer Interacttion} atau biasa disingkat HCI adalah suatu bidang studi yang merancanga teknologi komputer untuk lebih interaktif saat dipakai. Adanya HCI ini dapat memudahkan manusia untuk menyelesaikan tugas-tugasnya dengan bantuan komputer. HCI memungkinkan manusia untuk berinterkasi lebih dengan benda-benda disekitanya, salah satu contohnya adalah penggunaan gestur tangan pada saat menggunakan \textit{handphone}, mematikan atau menyalakan lampu dengan perintah suara, serta menggerakkan robot \parencite{HCI}. \par
-Pada saat ini perkembangan HCI cukup pesat yang diakibatkan dari perkembangan pada teknologi \textit{machine learning} dan robotika. Teknologi \textit{machine learning} memungkinkan komputer untuk belajar dari data-data yang diberikan oleh manusia dan juga mengambil keputusan dari data-data tersebut. Algoritma machine learning dirancang agar dapat belajar dan kemampuannya meningkat seiring waktu ketika terdapat data baru tanpa diprogram secara eksplisit. Pada salah satu cabang \textit{machine learning} yaitu \textit{computer vision} memungkinkan untuk komputer mengerti gerakan atau pose yang diberikan manusia melalui citra atau vidio \parencite{Bukusakti}. Tidak hanya \textit{machine learning} yang berkembang namun pada robotika juga berkembang terutama pada sistem kendalinya. Awalnya robot hanya dapat dikendalikan secara dekat, namun beberapa tahun berikutnya robot sudah bisa dikendalikan dengan jarak yang jauh dengan tanpa kabel atau \textit{wireles} dan dikendalikan dengan \textit{remote control joystick}. Saat ini robot dapat dikendalikan tidak hanya menggunakan \textit{joystick}, namun juga dapat dikendalikan dengan gestur tangan dan juga secara  \textit{autonomous}, namun saat ini kendali menggunakan \textit{joystick} secara perlahan mulai ditinggalkan karena kurang memberikan pengalaman yang interaktif saat digunakan. 
-Kendali robot menggunakan gestur tangan mulai dikembangkan menggunakan sensor yang diletakkan pada tangan dan juga dapat menggunakan \textit{computer vision} untuk mengetahui gestur tubuh manusia. Di antara algoritma \textit{computer vision} ada suatu metode yaitu CNN yang dapat memproses suatu data berupa citra dengan efisien serta terdapat \textit{framework Mediapipe} yang dapat mendeteksi tangan dalam citra. 
+Pose adalah potongan-potongan dari gerakan yang bertujuan untuk komunikasi non verbal yang digunakan untuk menyampaikan pesan penting, baik secara langsung maupun tidak langsung tanpa menggunakan kata-kata. Setiap pose dapat memiliki arti tersendiri sesuai dengan kesepakatan umum ataupun personal yang melakukan komunikasi. Pose tangan berarti suatu sikap yang diberikan oleh tangan untuk berkomunikasi \parencite{gesturtangan}. Pose tangan ini biasa digunakan oleh penderita tuna rungu untuk berkomunikasi, namun dengan perkembangan teknologi dimana adanya teknologi \textit{human computer interaction} yang memungkinkan untuk berkomunikasi dengan komputer menggunakan pose tangan. \par
+% \textit{Human Computer Interacttion} atau biasa disingkat HCI adalah suatu bidang studi yang merancanga teknologi komputer untuk lebih interaktif saat dipakai. Adanya HCI ini dapat memudahkan manusia untuk menyelesaikan tugas-tugasnya dengan bantuan komputer. HCI memungkinkan manusia untuk berinterkasi lebih dengan benda-benda disekitanya, salah satu contohnya adalah penggunaan gestur tangan pada saat menggunakan \textit{handphone}, mematikan atau menyalakan lampu dengan perintah suara, serta menggerakkan robot \parencite{HCI}. \par
+% Pada saat ini perkembangan HCI cukup pesat yang diakibatkan dari perkembangan pada teknologi \textit{machine learning} dan robotika. 
+Teknologi \textit{machine learning} memungkinkan komputer untuk belajar dari data-data yang diberikan oleh manusia dan juga mengambil keputusan dari data-data tersebut. Algoritma machine learning dirancang agar dapat belajar dan kemampuannya meningkat seiring waktu ketika terdapat data baru tanpa diprogram secara eksplisit. Pada salah satu cabang \textit{machine learning} yaitu \textit{computer vision} memungkinkan untuk komputer mengerti gerakan atau pose yang diberikan manusia melalui citra atau vidio \parencite{Bukusakti}. Tidak hanya \textit{machine learning} yang berkembang namun pada robotika juga berkembang terutama pada sistem kendalinya. Awalnya robot hanya dapat dikendalikan secara dekat, namun beberapa tahun berikutnya robot sudah bisa dikendalikan dengan jarak yang jauh dengan tanpa kabel atau \textit{wireles} dan dikendalikan dengan \textit{remote control joystick}. Saat ini robot dapat dikendalikan tidak hanya menggunakan \textit{joystick}, namun juga dapat dikendalikan dengan gestur tangan dan juga secara  \textit{autonomous}, namun saat ini kendali menggunakan \textit{joystick} secara perlahan mulai ditinggalkan karena kurang memberikan pengalaman yang interaktif saat digunakan. 
+Kendali robot menggunakan gestur tangan mulai dikembangkan menggunakan sensor yang diletakkan pada tangan dan juga dapat menggunakan \textit{computer vision} untuk mengetahui gestur tubuh manusia. Di antara algoritma \textit{computer vision} ada suatu metode yaitu CNN yang dapat memproses suatu data berupa citra dengan efisien. Tantangan pembuatan gestur tangan untuk dikembangkan sebagai kendali robot yaitu terdapat variasi terhadap ukuran tangan manusia serta terdapat gangguan saat pengambilan citra tangan menggunakan kamera. Terdapat metode untuk mengenali gestur tangan menggunakan landmark. Salah satu metode landmark tangan  terdapat \textit{framework Mediapipe} yang dapat mendeteksi tangan dalam citra. 
+
+Terdapat penelitian yang dilakukan mengenai kendali robot menggunakan gestur tangan dengan bantuan alat yang ditempelkan pada punggung tangan. Kekurangan penelitian tersebut masih menggunakan alat yang ditempelkan atau diletakkan pada tangan untuk mendapatkan gestur tangan \parencite{ProsidingSeminarNasionalFisika}. Kendali robot menggunakan gestur tangan mulai dikembangkan menggunakan sensor yang diletakkan pada tangan dan juga dapat menggunakan \textit{computer vision} untuk mengetahui gestur tubuh manusia. Terdapat penelitian penggunaan kamera untuk kendali dari \textit{mobile robot} mengenai pengendalian robot menggunakan tanda panah yang terdeteksi. Kekurangan dari penelitian ini untuk kendali menggunakan gambar panah yang diletakkan pada depan robot untuk dapat menggerakkan robot \parencite{kukuh}. 
+
+% Pada penelitian ini diusulkan penelitian kendali \emph{mobile robot} berbasis pose tangan menggunakan \emph{Convolutional Neural Network} (CNN).
 
 % Sebelumnya telah terdapat penelitian dengan judul \textit{"In-Vehicle Hand Gesture Recognition using Hidden Markov Models"}, yang memiliki akurasi 77,5\%. Berdasarkan penelitian tersebut diharapkan penggunaan CNN dan \textit{framework Mediapipe} dapat menghasilkan akurasi yang lebih baik saat kondisi latar belakang \textit{homogen} maupun kompleks\parencite{invehicle}. 
  
 
 
 \section{Rumusan Masalah}
-% Ubah paragraf berikut sesuai dengan rumusan masalah dari tugas akhir
-Berdasarkan apa yang telah dipaparkan dalam latar belakang pada subbab 1.1, dapat diketahui bahwa sistem kendali pada robot sudah mulai meninggalkan \textit{remote control joystick} dan beralih pada kendali menggunakan gestur tangan atau secara \textit{autonomous}. Penggunaan \textit{remote control joystick} mulai ditinggalkan karena adanya perkembangan teknologi yang lebih interaktif. Oleh karenanya,diperlukan opsi lain dalam mengendalikan robot yaitu salah satunya menggunakan pose tangan.
+\label{subbab1.2}
+% Ubah paragraf berikut sesuai dengan rumusan masalah dari Tugas Akhir
+Berdasarkan apa yang telah dipaparkan dalam latar belakang pada Bab \ref{subbab1.1}, dapat diketahui bahwa sistem kendali pada robot sudah mulai beralih pada kendali menggunakan gestur tangan atau secara \textit{autonomous}. Penggunaan gestur tangan terdapat 2 macam yaitu menggunakan gestur tangan mulai dikembangkan menggunakan sensor yang diletakkan pada tangan dan juga dapat menggunakan \textit{computer vision} untuk mengetahui gestur tubuh manusia. Tantangan pembuatan gestur tangan untuk dikembangkan sebagai kendali robot yaitu terdapat variasi terhadap ukuran tangan manusia serta terdapat gangguan saat pengambilan citra tangan menggunakan kamera. Oleh karena itu, diperlukan metode untuk kendali robot menggunakan citra tangan yang ditangkap melalui kemara.
 
 % Seperti pada penelitian yang telah disebutkan dalam latar belakang subbab 1.1 yang membuat sistem kendali robot dengan bantuan sensor yang diletakkan pada sarung tangan pengguna. Cara ini akan meletakkan beberapa
 % Hal ini dikarenakan kendali menggunakan gestur tangan dirasa memberikan pengalaman interaktif yang lebih dari pada menggunakan \textit{joystick}. 
@@ -25,18 +32,20 @@ Berdasarkan apa yang telah dipaparkan dalam latar belakang pada subbab 1.1, dapa
 
 \section{Batasan Masalah atau Ruang Lingkup}
 
-Pada pembuatan Tugas Akhir ini, pembahasan penelitian akan dibatasi beberapa hal berikut :
+Pada pembuatan Tugas Akhir ini, pembahasan akan dibatasi beberapa hal berikut :
 \begin{enumerate}
 	\item Pengambilan citra akan dilakukan dengan menggunakan kamera.
-	\item Pendeteksian tangan akan menggunakan \textit{framework Mediapipe}.
-	\item Pembatasan pose tangan yang menjadi dataset ada enam yakni maju, mundur, berhenti, belok kiri, belok kanan, dan tembak.
-	\item Pengujian yang dilakukan adalah pengujian akurasi model pada pose tangan dengan variasi jarak.
+	\item Pose tangan yang digunakan ada lima yaitu maju, mundur, diam, belok kanan, dan belok kiri.
+	\item Setiap pose tangan menggunakan kedua tangan.
+	\item Dataset yang digunakan berasal dari satu orang.
+	\item Pendeteksian tangan serta pembuatan landmark tangan  menggunakan \emph{framework Mediapipe}.
+	\item Proses klasifikasi citra menggunakan \emph{Convolutional Neural Network} (CNN).
 \end{enumerate}
 
 \section{Tujuan}
 
-% Ubah paragraf berikut sesuai dengan tujuan penelitian dari tugas akhir
-Tujuan yang ingin dicapai dari Tugas Akhir ini adalah membuat kendali robot berbasis pose tangan menggunakan \textit{Convolutional Neural Network}.
+% Ubah paragraf berikut sesuai dengan tujuan penelitian dari Tugas Akhir
+Berdasarkan permasalahan yang telah disebutkan pada Bab \ref{subbab1.2}, tujuan yang ingin dicapai dari Tugas Akhir ini adalah membuat kendali robot berbasis pose tangan menggunakan \textit{Convolutional Neural Network}.
 
 % Berdasarkan rumusan permasalahan yang ada pada subbab 1.2, maka dibuatlah tujuan Kendali \textit{mobile robot} berbasis gestur tangan menggunakan \textit{Convolutional Neural Network} dengan harapan dapat memberikan opsi lain dalam mengontrol robot dan pengalaman yang lebih interaktif.
 % \begin{enumerate}
@@ -46,4 +55,13 @@ Tujuan yang ingin dicapai dari Tugas Akhir ini adalah membuat kendali robot berb
 % \end{enumerate}
 
 \section{Manfaat}
-Manfaat dari penelitian ini yaitu membuat kendali untuk \textit{mobile robot} berbasis pose tangan yang akurat dan dapat digunakan oleh masyarakat secara umum. Dari penelitian ini diharapkan dapat sebagai opsi lain dalam mengontrol robot yang lebih mudah dan tanpa alat lain.
+Tugas Akhir ini memiliki beberapa manfaat tidak hanya bagi penulis juga bagi pihak-pihak terkait diantaranya :
+\begin{enumerate}
+	\item Bagi Penulis \par
+	Seluruh rangkaian pelaksanaan Tugas Akhir ini memiliki banyak manfaat bagi penulis, antara lain seperti mengasah kemampuan berfikir terhadap permasalahan yang nyata dan dihadapi oleh masyarakat, mengasah pola pikir agar lebih kritis, logis, dan inovatif serta sistematis dalam memecahkan permasalahan.
+	\item Bagi Institusi
+	Melalui Tugas Akhir ini, diharapkan daoat menjadi inspirasi dan referensi dalam pengembangan bidang robotika dan \emph{machine learning} khususnya dalam pengembangan kendali robot menggunakan \emph{Convolutional Neural Network} (CNN).
+	\item Bagi Masyarakat
+	Melalui Tugas Akhir ini diharapkan bahwa perancangan Tugas Akhir ini dapat menjadi solusi tepat sasaran baik dalam permasalahan yang diangkat maupun kebutuhan masyarakat sehingga dapat memberikan manfaat secara nyata.
+\end{enumerate}
+

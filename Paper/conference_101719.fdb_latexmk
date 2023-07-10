@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1686213917 "d:/DATA/SEMESTER 8/TUGASAKHIR/BukuTA/Paper/conference_101719.tex" "conference_101719.pdf" "conference_101719" 1686213918 0
+["pdflatex"] 1687760362 "d:/DATA/SEMESTER 8/TUGASAKHIR/BukuTA/Paper/conference_101719.tex" "conference_101719.pdf" "conference_101719" 1687760363 0
   "../Gambar/Diam (1).png" 1677584162 12173 e6c974d4cfa1094fbe9a88b32e278022 ""
   "../Gambar/DiamI (1).png" 1677640980 14116 3441ddd0a5577a435e9e3f22dc42d93a ""
   "../Gambar/Kanan (1).png" 1677585452 16602 2c6313ba5da5ac2028f3f01875ae4038 ""
@@ -12,10 +12,10 @@
   "../Gambar/MundurI (1).png" 1678759023 13685 ec528cbbd1628cb81478451316d59f99 ""
   "../Gambar/Tembak (1).png" 1678758462 12121 a9a3b2c0bb92316926248eaba089f50b ""
   "../Gambar/TembakI (1).png" 1678758490 12042 ed0b203b48503abcd10dc77cc728fffa ""
-  "../Gambar/akurasi.png" 1685252892 42838 d11d8017a9573bd9f87e767f669fcc92 ""
-  "../Gambar/confusionmatrix.png" 1684937990 45664 a411c8f7735e45797d29d5d7235e88de ""
-  "../Gambar/loss.png" 1685252863 42828 7b46e05836ebac79568f308b0326990b ""
-  "../Gambar/metodologi.png" 1686206490 125219 06fe8b44f55bdd5ae0da955037dc6c76 ""
+  "../Gambar/akurasi.png" 1687354352 29772 ab6cdc9da0f26d4ffeef0db372e809e9 ""
+  "../Gambar/confusionmatrix.png" 1687354273 31139 e93d1d123466dbddd0c09193ba631012 ""
+  "../Gambar/loss.png" 1687354331 29126 3bcf0547bf94e23769c19b87faad5865 ""
+  "../Gambar/metodologi.png" 1687331578 201109 4316a1b9b0e1ba152df596a75f361556 ""
   "../Gambar/posediam.png" 1685258588 460873 0dfd68014ffcaec52f9c71ea52a332c4 ""
   "../Gambar/posekanan.png" 1685258590 456968 9ea31ef6f6e3dd7c0263a52b369aa3dd ""
   "../Gambar/posekiri.png" 1685258592 424294 001065ba2290296e3dd84412228e1224 ""
@@ -91,7 +91,7 @@
   "C:/Users/Alfan/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/Alfan/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "IEEEtran.cls" 1440654524 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "conference_101719.aux" 1686213918 3088 3c245133a1ec5378223ba19a31f8d05a "pdflatex"
+  "conference_101719.aux" 1687760363 3088 3c245133a1ec5378223ba19a31f8d05a "pdflatex"
   "conference_101719.tex" 1686213916 25005 053be3d039abc391efb3caff9bd0a89b ""
   "d:/DATA/SEMESTER 8/TUGASAKHIR/BukuTA/Paper/conference_101719.tex" 1686213916 25005 053be3d039abc391efb3caff9bd0a89b ""
   (generated)
